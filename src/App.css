@@ -1,0 +1,529 @@
+.App {
+  text-align: center;
+}
+button {
+  cursor: pointer;
+}
+
+.home {
+  height: 52rem;
+  width: 84rem;
+  background-color: rgba(105, 104, 104, 0.61);
+  padding: 1%;
+  text-align: center;
+}
+
+.home-head-cont {
+  height: 6em;
+  width: 50rem;
+  margin-left: 15rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  color: #282c34;
+  text-shadow: 0px 3px 5px #282c34;
+}
+.login-toggle {
+  margin: 1%;
+  width: 24rem;
+  height: 2rem;
+  padding: 1%;
+  margin-left: -0.2rem;
+  margin-bottom: 20px;
+}
+.login-toggle > button {
+  height: 3rem;
+  width: 11rem;
+  font-size: 22px;
+  font-weight: 500;
+  border: 0px;
+  box-shadow: 0px 2px 3px rgb(88, 87, 87);
+}
+.login-toggle > button:hover {
+  height: 3.1rem;
+  width: 11.2rem;
+  transition: 0.4s;
+  font-size: 24px;
+  background-color: #282c34;
+  color: white;
+  border-radius: 4px;
+  box-shadow: 0px 1px 10px rgb(0, 0, 0);
+}
+
+.h-o-cont {
+  margin: 1%;
+  margin-top: -2rem;
+  display: flex;
+  padding: 1%;
+  display: flex;
+  justify-content: space-around;
+  width: 50rem;
+  margin-left: 14rem;
+}
+.h-o-cont > p {
+  font-size: 2rem;
+  color: #282c34;
+  font-weight: 600;
+}
+
+.h-opt {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7px;
+  background-color: rgb(211, 207, 207);
+  box-shadow: 0px 3px 7px rgb(37, 37, 37);
+  color: rgb(90, 88, 88);
+}
+.h-opt:hover {
+  height: 16rem;
+  width: 16rem;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.534);
+  box-shadow: 0px 1px 3px rgb(0, 0, 0);
+  transition: 0.3s;
+  cursor: pointer;
+  color: wheat;
+}
+.h-opt > h3 {
+  margin-top: 6rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0px 1px 3px rgb(15, 15, 15);
+}
+.user-back {
+  text-align: center;
+  color: white;
+  background-color: #282c34;
+  box-shadow: 0px 1px 4px black;
+  height: 2.7rem;
+  width: 2.8rem;
+  border-radius: 50%;
+  border: 0px;
+  font-size: 1.2rem;
+  margin-right: 25rem;
+}
+.user-back:hover {
+  height: 3.2rem;
+  width: 3.2rem;
+  box-shadow: 0px 1px 6px white;
+  transition: 0.3s;
+}
+.user-page {
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.su-cont {
+  border: 0px solid rgb(255, 255, 255);
+  border-radius: 9px;
+  height: 28rem;
+  width: 20rem;
+  text-align: left;
+  padding: 2%;
+  background-color: rgb(218, 214, 208);
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+.su-cont > form > p {
+  font-size: 20px;
+  color: #282c34;
+  padding: 0%;
+  margin-bottom: 5px;
+}
+.su-cont > form > input {
+  border: 0px;
+  border-radius: 7px;
+  background-color: rgb(77, 74, 72);
+  margin-top: -20px;
+  width: 17rem;
+  height: 1.6rem;
+  color: wheat;
+}
+.su-cont > form > button {
+  margin-left: 7rem;
+  margin-top: 1.5rem;
+  width: 5rem;
+  height: 2rem;
+  background-color: #282c34;
+  color: wheat;
+  font-weight: 600;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.su-cont > form > button:hover {
+  width: 9rem;
+  height: 2.5rem;
+  background-color: rgb(5, 110, 28);
+  color: #d6d6da;
+  font-size: 1.5rem;
+  box-shadow: 0px 1px 8px black;
+  border: 0px;
+  border-radius: 8px;
+  margin-left: 5rem;
+  transition: 0.2s;
+}
+.App-header {
+  background-color: #282c34;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: normal;
+  justify-content: space-between;
+  color: white;
+}
+.head-title {
+  padding: 5px;
+  text-align: center;
+  margin: auto;
+  margin-left: 10px;
+}
+.cred-cont {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  margin-right: 1rem;
+}
+.cont {
+  background-color: rgb(148, 219, 42);
+  border: 1px solid blue;
+  height: 70rem;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.reservation-cont {
+  border: 2px solid rgb(124, 81, 2);
+  height: 65rem;
+  width: 45rem;
+  margin: 3px;
+}
+
+.reserved-cont {
+  border: 2px solid rgb(124, 81, 2);
+  height: 65rem;
+  width: 45rem;
+  margin: 3px;
+}
+
+.reservation-card {
+  background-color: rgba(245, 222, 179, 0.932);
+  border-radius: 2px;
+  box-shadow: 1px 10px 15px rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+  width: 400px;
+  margin: 15px;
+  padding: 1%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.res-input {
+  margin: 2px;
+  align-items: start;
+  text-align: left;
+  padding: 2%;
+}
+.res-input label {
+  padding: 1%;
+  font-size: large;
+  font-weight: 500;
+}
+
+.res-input input {
+  border: 0px;
+  height: 25px;
+  width: 250px;
+  border-radius: 5px;
+  padding: 1%;
+  box-shadow: 1px 3px 3px white;
+}
+.res-input button {
+  height: 30px;
+  width: 100px;
+  margin-left: 10rem;
+  border-radius: 10px;
+  border: 0px;
+  background-color: rgb(166, 232, 243);
+  font-size: large;
+  font-weight: 600;
+}
+
+fieldset {
+  border: 2px solid rgb(0, 238, 255);
+  padding: 2%;
+  border-radius: 10px;
+}
+
+legend {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.res-button {
+  margin: 2px 4px;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 700;
+  font-size: large;
+  cursor: pointer;
+  background-color: rgba(238, 17, 17, 0.973);
+  box-shadow: 1px 2px 5px rgb(204, 10, 10);
+}
+.customer-card {
+  width: 30rem;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 1%;
+  background-color: rgba(216, 210, 210, 0.808);
+  display: flex;
+  flex-direction: column;
+}
+.cust-food-cont {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid violet;
+
+  flex-wrap: wrap;
+}
+
+.cust-food {
+  border: 1px solid darkviolet;
+  margin: 3px;
+  padding: 1%;
+  font-weight: 500;
+}
+.cust-name {
+  font-size: 25px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 1rem;
+}
+.cust-food-inp-cont {
+  align-self: flex-end;
+  margin: 5px;
+  margin-top: 2rem;
+}
+.rest-page-cont {
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 25px black;
+  width: 98%;
+  margin: 5px 5px;
+  padding: 0.5%;
+  background-color: rgba(0, 0, 0, 0.671);
+
+  display: flex;
+}
+.rest-page-cont > h1 {
+  width: 50%;
+  color: purple;
+  background-color: rgb(0, 0, 0);
+}
+.menu-cont {
+  box-shadow: 0px 0px 15px wheat;
+  background-color: rgba(255, 255, 255, 0.945);
+  border-radius: 12px;
+  width: 70%;
+}
+.menu-cart {
+  background-color: rgba(255, 255, 255, 0.671);
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px wheat;
+  width: 28%;
+
+  margin-left: 15px;
+}
+.starter-cont {
+  margin: 2px;
+  height: 40rem;
+  width: 58rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.food-item-cont {
+  box-shadow: 5px 5px 10px rgb(68, 65, 65);
+  background-color: rgb(90, 87, 87);
+  margin: 1%;
+  padding: 2px;
+  width: 7rem;
+  height: 7.5rem;
+  text-align: center;
+}
+.food-item-cont > img {
+  height: 4rem;
+  width: 6.5rem;
+  margin: 1px;
+  background-size: cover;
+  box-shadow: 0px 1px 4px wheat;
+  border: 0px;
+}
+.food-item-cont > p {
+  margin: 1px;
+  font-size: 15px;
+  margin-bottom: 5px;
+  font-weight: 800;
+  color: rgb(8, 8, 8);
+  text-shadow: 0px 1px 1px rgb(82, 80, 80);
+}
+.fi-btn-cont {
+  margin: 0%;
+  display: flex;
+  justify-content: space-between;
+}
+.fi-btn-cont > button {
+  height: 1.4rem;
+  border: 0px;
+  width: 7rem;
+  box-shadow: 0px 1px 4px black;
+}
+.main-course-cont {
+  margin: 2px;
+  height: 40rem;
+  width: 58rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.desert-cont {
+  margin: 2px;
+  height: 15rem;
+  width: 58rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.bread-cont {
+  margin: 2px;
+  height: 30rem;
+  width: 58rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.h-cont {
+  height: 4rem;
+  width: 55rem;
+  border-radius: 10px;
+  background-color: rgb(226, 162, 41);
+  border-bottom: 1px solid black;
+  box-shadow: 0px 4px 8px black;
+}
+.s1 {
+  margin: auto;
+  color: #282c34;
+  width: 40rem;
+  font-size: 45px;
+  text-align: left;
+}
+.cart-h1 {
+  margin: auto;
+  color: #282c34;
+  font-size: 45px;
+  text-align: left;
+  height: 3rem;
+  padding: 3%;
+  padding-bottom: 5%;
+  background-color: rgb(226, 162, 41);
+  margin: 2%;
+  box-shadow: 0px 2px 5px black;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.cartItem {
+  box-shadow: 0px 1px 3px black;
+  border-radius: 7px;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  margin: 5px;
+}
+.count {
+  color: green;
+}
+.cart-btn-cont {
+  display: flex;
+  width: 5.5rem;
+  justify-content: space-between;
+}
+.cart-btn-cont > button {
+  font-size: 20px;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 12px;
+  border: 0px;
+  border-radius: 5px;
+}
+.cart-btn-minus:hover {
+  background-color: red;
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  transition-duration: 0.2s;
+  border: 0px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 5px red;
+}
+.cart-btn-plus:hover {
+  background-color: rgb(70, 247, 0);
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  transition-duration: 0.2s;
+  border: 0px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 5px rgb(51, 255, 0);
+}
+.plus:hover {
+  color: rgb(255, 0, 0);
+  background-color: greenyellow;
+  font-size: 15px;
+  font-weight: 600;
+  transition-duration: 0.2s;
+}
+.minus:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(243, 0, 0);
+  font-size: 15px;
+  font-weight: 600;
+  transition-duration: 0.2s;
+}
+.chekOut-cont {
+  border-top: 1px solid rgb(3, 3, 3);
+  margin: 1rem;
+  padding: 1%;
+  text-align: center;
+}
+.checkOut {
+  margin: 2%;
+  font-size: 20px;
+  font-weight: 700;
+  bottom: 1rem;
+  height: 3rem;
+  background-color: wheat;
+  align-self: center;
+  border: 0px;
+  border-radius: 7px;
+}
+.checkOut:hover {
+  margin: 2%;
+  font-size: 25px;
+  font-weight: 700;
+  bottom: 1rem;
+  height: 4rem;
+  width: 10rem;
+  background-color: greenyellow;
+  color: rgb(48, 47, 47);
+  transition-duration: 0.2s;
+  box-shadow: 0px 2px 8px rgb(71, 71, 70);
+}
