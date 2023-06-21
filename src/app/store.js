@@ -3,6 +3,9 @@ import reservationReducer from "../features/reservationSlice";
 import customerReducer from "../features/customerSlice";
 import menuReducer from "../features/menuSlice";
 import cartReducer from "../features/cartSlice";
+import signUpReducer from "../features/signUpSlice";
+import loginReducer from "../features/loginSlice";
+
 
 export const store = configureStore({
   reducer: {
@@ -10,5 +13,8 @@ export const store = configureStore({
     customer: customerReducer,
     menu: menuReducer,
     cart: cartReducer,
+    signUp: signUpReducer,
+    login: loginReducer,
+
   },
 });
